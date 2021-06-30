@@ -1,0 +1,933 @@
+/* start task 1 */
+
+.navbar 
+{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-collapse a
+{
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.nav-item .active
+{
+    color:red;
+}
+
+.navbar-collapse a:hover
+{
+    font-size: 13px;
+    font-weight: 600;
+    color: red;
+    transition-duration:0.5s
+}
+
+.navbar-brand
+{
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-brand:hover
+{
+    color: #fff;
+}
+.line
+{
+    border-bottom: solid 0.3px;
+    color:rgba(235, 235, 235, 0.171)
+}
+.logo:hover
+{
+  color: red;
+  transition-duration:0.5s
+
+}
+.logo
+{
+    color: #fff;
+}
+.cover
+{
+    background-image: url(../images/slideshow-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;  
+    
+ 
+}
+.cover-2
+{
+    background-image: url(../images/slideshow-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;  
+   
+}
+.cover-3
+{
+    background-image: url(../images/slideshow-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;  
+}
+
+
+
+.slider h1
+{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    animation-name: Professional ;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: infinite
+}
+@keyframes Professional 
+{
+    0%{left: 200%; transform:Y(180deg);}
+    50%{left:0% ; transform:Y(180deg);}
+    50%{transform:Y(180deg);}
+    0%{left:200% ; transform:Y(180deg);}
+
+}
+
+
+
+
+.setting-color
+{
+color: white;
+
+}
+.setting-icon
+{
+    background-color: black;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 1000;
+    top: 100px;
+    left: 0;;
+}
+
+.right-left-icon
+{
+    background-color: transparent;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border:  solid 1px white;
+    top: 240px;
+    left: 0;
+    transition: 1s;
+}
+.icon-left i
+{
+  font-size: 28px;
+}
+.right-left-icon i
+{
+    font-size: 22px;
+}
+.right-left-icon:hover
+{
+    background-color: white;
+
+}
+.right-left-icon:hover i
+{
+    color: red;
+}
+.icon-left 
+{
+    background-color: transparent;
+    transition: 1s;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border:  solid 1px white;
+    top: 300px;
+    left: 0;
+}
+.icon-left:hover
+{
+    background-color: white;
+}
+.icon-left:hover i
+{
+    color: red;
+}
+
+.setting-color2
+{
+    color: white;
+    font-size: 20px;
+}
+
+.animation
+{
+    position: absolute;
+    width: 26px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    background: transparent;
+    bottom: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    transition: all 0.3s;
+}
+.login {
+
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 6px;
+    left: 0;
+    right: 0;
+
+}
+.login{
+  
+    position: relative;
+    animation-name: changeposition;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes changeposition
+{
+    0%{ top: 0px; }
+    50%{ top: 10px;}
+    100%{ top :20px}
+    
+}   
+
+/** section 2 **/
+.title h2{
+    font-size: 60px;
+    font-weight:bold;
+    color:rgba(128, 128, 128, 0.2)
+}
+.title h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000; 
+     margin-bottom: -20px;
+
+}
+
+.progress-bar
+{
+    background-color:red ;
+}
+
+/* end task 1 */
+
+/* start task 2 */
+
+.content h3
+{
+    font-size:70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+.content h2
+{
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.prag 
+{
+    font-size: 18px;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.55em;
+}
+.content h2::after
+{
+    content: "";
+    border-bottom:  solid 1px;
+    position: absolute;
+    width: 50px;
+    color: #282828;
+    bottom: 0;
+    left: 55px;    
+    height: 3px;
+}
+:hover.content h2::after
+{
+    border-bottom:  solid 1px;
+    width: 60px;
+    transition-duration:0.5s
+}
+
+.progress
+{
+    height: 4px;
+}
+.prog h6
+{
+    color: #444;
+    font-weight: 600;
+}
+/* end task 2 */
+
+/* start task 3 */
+.content h2::after
+{
+    content: "";
+    border-bottom:  solid 1px;
+    position: absolute;
+    width: 50px;
+    color: #282828;
+    bottom: 0;
+    left: 55px;    
+    height: 3px;
+}
+
+.member-layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    top: 0%;
+    left: 0%;
+    transition: top 0.5s;
+    opacity: 0;
+
+}
+.content-member:hover .member-layer 
+{
+    transition-duration: 0.5s;
+    opacity: 1;
+}
+.content-member:hover img
+{
+    transform: scale(1.2,1.2);
+    transition-duration: 0.5s;
+}
+.content-member img
+{
+    border-radius: 3px;
+}
+.content-member
+{
+    overflow: hidden;
+}
+
+.member-layer a
+{
+    color: #fff;
+}
+
+.our-content h4
+{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    line-height: 20px;
+    padding-top: 20px;
+}
+.our-content h5
+{
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+
+}
+.our-content:hover h4
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.5s;
+}
+/* end task 3 */
+
+/* start task 4 */
+
+.case h2
+{
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+}
+.clike
+{
+    background-color: #f83e3ef1;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    line-height: 1.5;
+    font-weight: 700
+}
+.clike:hover
+{
+    background-color: #f83e3eb9;
+    transition-duration: 0.5s;
+
+}
+/* end task 4 */
+
+/* start task 5 */
+
+.specialty p
+{
+    color: #666;
+    font-size: 16px;
+    line-height: 1.75em;
+    
+}
+.specialty h4
+{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.specialty i
+{
+    color: #f25454;
+    font-weight: 700;
+    font-size: 25px;
+    padding-right: 10px;
+
+    
+}
+#Services
+{
+    background-color:  rgba(102, 102, 102, 0.034);
+}
+.adress:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-1:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-2:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-3:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-4:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-5:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-6:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-7:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+
+}
+.adress-8:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.3s;
+}
+
+/*end task 5 */
+
+/* start task 6 */
+
+.line h2
+{
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 38px;
+    font-weight: 700;
+}
+.line h2::after
+{
+    content: "";
+    border-bottom:  solid 1px;
+    position: absolute;
+    width: 38px;
+    color: #282828;
+    bottom: 0;
+    left: 100px;    
+    height: 3px;
+}
+.line h3
+{
+    font-size:70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+:hover .line h2::after
+{
+    border-bottom:  solid 1px;
+    width: 60px;
+    transition-duration:0.5s
+}
+/* end task 6 */
+
+/* start task 7 */
+.adress h4
+{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+.say i
+{
+    color: rgba(242, 84, 84, 0.85);
+    font-size: 35px;
+}
+#Contact
+{
+    background-color:  rgba(102, 102, 102, 0.034);
+
+}
+.contact-adress h2
+{
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 38px;
+    font-weight: 700;
+}
+.contact-adress h2::after
+{
+    content: "";
+    border-bottom:  solid 1px;
+    position: absolute;
+    width: 38px;
+    color: #282828;
+    bottom: 0;
+    left: 90px;    
+    height: 3px;
+}
+.contact-adress h3
+{
+    font-size:70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+:hover .contact-adress h2::after
+{
+    border-bottom:  solid 1px;
+    width: 60px;
+    transition-duration:0.5s
+}
+
+.answer h2
+{
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+}
+.contact-icon 
+{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(242, 84, 84, 0.85);
+
+}
+.conect
+{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #282828;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+.conect:hover
+{
+    color: rgba(242, 84, 84, 0.85);
+    transition-duration: 0.5s;
+
+}
+.btn
+{
+    background-color: rgba(236, 70, 70, 0.973);
+    color: white;
+}
+.form-group:hover .form-control
+{
+  color:  rgba(236, 70, 70, 0.973);
+}
+.btn
+{
+    color: white;
+}
+.btn:hover
+{
+    background-color: rgba(242, 84, 84, 0.85);
+    color: white;
+}
+/* end task 7 */
+
+/* start task 8 */
+
+#Informatian
+{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.angle-side
+{
+    width: 40px;
+    height: 40px;
+    top: 0;
+    background: rgba(242, 84, 84, 0.5);
+}
+.angle-side:hover
+{
+    background: rgba(212, 53, 53, 0.5);
+
+}
+
+.angle-side i
+{
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+}
+.informatian h3
+{
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.informatian h6
+{
+    color: #b0b0b0;
+    font-family: "Poppins", sans-serif;
+}
+.popular h6:hover
+{
+    color: rgba(242, 84, 84, 0.5);
+    transition-duration: 0.3s;
+
+}
+.btn-informatian
+{
+    background-color: transparent;
+    color: #b0b0b0;
+    border-radius: 3px;
+    text-decoration: none;
+    border: solid 1px #b0b0b0;
+}
+.bton:hover 
+{
+    color: rgba(242, 84, 84, 0.747);
+    transition-duration: 0.1s;
+
+}
+/*  */
+
+/* */
+
+#end
+{
+    background-color: black;
+}
+.ang
+{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    line-height: 16px;
+    letter-spacing: .5px;
+    text-align: right;
+    font-size: 17px;
+    text-decoration: none;
+    border: none;
+}
+.ang:hover
+{
+    color: rgba(242, 84, 84, 0.747);
+    transition-duration: 0.1s;
+
+}
+.file:hover i
+{
+    color: rgba(242, 84, 84, 0.747);
+    transition-duration: 0.1s;
+}
+
+/* */
+
+/* start client reviews */
+.client h2
+{
+    color: rgba(0, 0, 0, 0.938);
+    font-size: 38px;
+    font-weight: 700;
+}
+.client h3
+{
+    
+    font-size:70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3b434a23;
+    font-family: "Raleway", sans-serif;
+}
+.client h2::after
+{
+    content: "";
+    border-bottom:  solid 1px;
+    position: absolute;
+    width: 50px;
+    color: #282828;
+    bottom: 0;
+    left: 110px;    
+    height: 3px;
+}
+:hover.client h2::after
+{
+    border-bottom:  solid 1px;
+    width: 60px;
+    transition-duration:0.5s
+}
+
+
+.carousel-indicators li
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-indent: 0;
+    margin: 30px;
+}
+.x
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-indent: 0;
+    top: 1px;
+}
+.img-clint
+{
+    width: 70px;
+    padding: 5px;
+}
+/*** contact ******/
+.o  h6
+{
+    opacity: 0;
+}
+.o:hover h6 
+{
+    opacity: 1;
+}
+#carouselExampleIndicators.active
+{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.setting
+{
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    left: 0px; ;    
+    top: 150px;
+    background-repeat: no-repeat;
+    background-color: #1f2528;
+    position: fixed;
+    z-index: 3;
+}
+.setting:hover
+{
+    background-color: rgba(0, 0, 0, 0.74);
+    transition-duration:0.4s
+
+}
+.slider
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 0px; ;    
+    top: 150px;
+    border-top:solid 1px  white;
+    border-right:solid 1px  white;
+    border-bottom:solid 1px  white;
+}
+.slider-one
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: -540px; ;    
+    top: 70px;
+    border-top:solid 1px  white;
+    border-right:solid 1px  white;
+    border-bottom:solid 1px  white;
+    background-color: transparent;
+}
+.slider-one i
+{
+    color: #fff;
+    height: 120px;
+    width: 120px;
+    font-size: 2rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.slider-one:hover
+{
+    background-color: white;
+    transition-duration:0.8s
+
+}
+.slider-one:hover i
+{
+    color: red;
+    transition-duration:0.8s
+}
+
+.slider
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left:-540px; ;    
+    top: 20px;
+    border-top:solid 1px  white;
+    border-right:solid 1px  white;
+    border-bottom:solid 1px  white;
+    background-color: transparent;
+}
+.slider i
+{
+    color: #fff;
+    height: 120px;
+    width: 120px;
+    font-size: 2rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+.slider:hover
+{
+    background-color: white;
+    transition-duration:0.8s
+}
+.slider:hover i
+{
+    color: red;
+    transition-duration:0.8s
+}
+
+
+.caption h1
+{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    animation-name: Professional ;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite
+}
+@keyframes Professional 
+{
+    0%{left: 200%; transform:Y(180deg);}
+    50%{left:0% ; transform:Y(180deg);}
+    75%{transform:Y(180deg);}
+    100%{left:50% ; transform:Y(180deg);}
+
+}
+.carousel-inner:hover
+{
+    transition-duration: 1s;
+}
+
+.log
+{
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left:230px; ;    
+    top: 350px;
+  border-radius:50%;
+    background-color: red;
+}
+
+
+*/
